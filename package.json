@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx @textlint/script-compiler --outputDir ./output/ --metadataName test --metadataNamespace example.com --metadataHomepage=https://example.com",
-    "website": "npx @textlint/website-generator --outputDir ./web/ --metadataName test --metadataNamespace example.com --metadataHomepage=https://example.com"
+    "website": "npx @textlint/website-generator --outputDir ./docs/ --metadataName test --metadataNamespace example.com --metadataHomepage=https://example.com"
   },
   "author": "azu",
   "license": "MIT",
