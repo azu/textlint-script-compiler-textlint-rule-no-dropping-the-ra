@@ -1,0 +1,15 @@
+{
+  "name": "textlint-script-compiler-textlint-rule-no-dropping-the-ra",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @textlint/script-compiler --outputDir ./output/ --metadataName test --metadataNamespace example.com --metadataHomepage=https://example.com"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "devDependencies": {
+    "@textlint/script-compiler": "^0.16.0",
+    "textlint-rule-no-dropping-the-ra": "^3.0.0"
+  }
+}
