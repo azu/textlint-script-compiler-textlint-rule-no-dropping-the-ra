@@ -2,6 +2,7 @@
   "name": "textlint-script-compiler-textlint-rule-no-dropping-the-ra",
   "version": "1.0.0",
   "description": "test",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "npx @textlint/script-compiler --outputDir ./output/ --metadataName test --metadataNamespace example.com --metadataHomepage=https://example.com",
