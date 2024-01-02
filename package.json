@@ -4,12 +4,14 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "build": "npx @textlint/script-compiler --outputDir ./output/ --metadataName test --metadataNamespace example.com --metadataHomepage=https://example.com"
+    "build": "npx @textlint/script-compiler --outputDir ./output/ --metadataName test --metadataNamespace example.com --metadataHomepage=https://example.com",
+    "website": "npx @textlint/website-generator --outputDir ./web/ --metadataName test --metadataNamespace example.com --metadataHomepage=https://example.com"
   },
   "author": "azu",
   "license": "MIT",
   "devDependencies": {
     "@textlint/script-compiler": "^0.16.0",
+    "@textlint/website-generator": "^0.16.0",
     "textlint-rule-no-dropping-the-ra": "^3.0.0"
   }
 }
